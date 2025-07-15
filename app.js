@@ -1,7 +1,7 @@
 const http = require('http'); // memanggil modul http bawaan Node.js
 
 const server = http.createServer((req, res) => {
-  res.end('Hello World from Node.js on VPS!'); // respon ke browser
+  res.end('Hello888 World from Node.js on VPS!'); // respon ke browser
 });
 
 server.listen(3000, () => {
