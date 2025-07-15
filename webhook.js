@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const { exec } = require('child_process');
 
 const app = express();
-const secret = '123456'; // samakan dengan secret di GitHub
+const secret = '2212'; // samakan dengan secret di GitHub
 
 app.use(bodyParser.json());
 
